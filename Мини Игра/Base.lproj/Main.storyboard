@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Мини_Игра" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OtM-fB-II9" customClass="MyCustomView" customModule="Мини_Игра" customModuleProvider="target">
+                                <rect key="frame" x="87" y="543" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="X4O-tZ-J9o" appends="YES" id="aC8-yf-knN"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="150-cU-5sl" customClass="MyCustomView" customModule="Мини_Игра" customModuleProvider="target">
+                                <rect key="frame" x="232" y="390" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fGx-76-EGt" appends="YES" id="N4Q-bq-5Id"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fWV-cM-lvQ" customClass="MyCustomView" customModule="Мини_Игра" customModuleProvider="target">
+                                <rect key="frame" x="88" y="336" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Vwh-oN-gmX" appends="YES" id="8Oj-aA-aE3"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TJ4-ee-CZV" customClass="MyCustomView" customModule="Мини_Игра" customModuleProvider="target">
+                                <rect key="frame" x="232" y="166" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="z1P-US-cZG" appends="YES" id="wGt-G6-N4K"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0L6-n6-J9o" customClass="MyCustomView" customModule="Мини_Игра" customModuleProvider="target">
+                                <rect key="frame" x="44" y="162" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ieX-yz-xpB" appends="YES" id="0gn-bR-tIa"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5NM-fv-NCT" customClass="MyCustomView" customModule="Мини_Игра" customModuleProvider="target">
+                                <rect key="frame" x="211" y="607" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4JD-C1-r64" appends="YES" id="zyr-ZV-Ufp"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dka-yQ-AlQ" customClass="MyCustomView" customModule="Мини_Игра" customModuleProvider="target">
+                                <rect key="frame" x="67" y="702" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="iFS-cz-TSM" appends="YES" id="dB0-gm-Cny"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="blueView1" destination="dka-yQ-AlQ" id="mgu-YB-5wv"/>
+                        <outlet property="blueView2" destination="5NM-fv-NCT" id="vnO-tX-zVp"/>
+                        <outlet property="blueView3" destination="OtM-fB-II9" id="YU7-hN-kMn"/>
+                        <outlet property="blueView4" destination="150-cU-5sl" id="p8K-72-SlZ"/>
+                        <outlet property="blueView5" destination="fWV-cM-lvQ" id="fjM-Sz-mZ0"/>
+                        <outlet property="blueView6" destination="TJ4-ee-CZV" id="nhY-JQ-UCk"/>
+                        <outlet property="blueView7" destination="0L6-n6-J9o" id="Nf1-LJ-Xav"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="iFS-cz-TSM">
+                    <connections>
+                        <action selector="panAction1:" destination="BYZ-38-t0r" id="HJJ-a7-5YB"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="fx7-NI-y99"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="4JD-C1-r64">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="hEm-qG-Zy8"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="fl4-px-S0t"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="X4O-tZ-J9o">
+                    <connections>
+                        <action selector="panAction3:" destination="BYZ-38-t0r" id="2QD-CQ-dfI"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="qlP-xp-kcc"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="fGx-76-EGt">
+                    <connections>
+                        <action selector="panAction4:" destination="BYZ-38-t0r" id="kMS-0Z-619"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="t2M-4K-qW9"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Vwh-oN-gmX">
+                    <connections>
+                        <action selector="panAction5:" destination="BYZ-38-t0r" id="PvC-Bx-2D9"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="hLw-Um-7A4"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="z1P-US-cZG">
+                    <connections>
+                        <action selector="panAction6:" destination="BYZ-38-t0r" id="12Z-9k-rRc"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Dja-J4-EBz"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ieX-yz-xpB">
+                    <connections>
+                        <action selector="panAction7:" destination="BYZ-38-t0r" id="dne-EI-HZG"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="dGE-55-ICg"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="20" y="76"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
